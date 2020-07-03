@@ -13,10 +13,12 @@ This algorithm is different from other path finding algorithm because it also in
 This value gives the the distance between all the Nodes from the destination node which helps in finding the effient path from given source and destination.
 So all in all A-star algorithm includes two values the heuristic and the distance from one node to other.
 
-# Heuristic value is the distance between all the Nodes from the destination node, it can be calculated in 3 ways:-
+Heuristic value is the distance between all the Nodes from the destination node, it can be calculated in 3 ways:-
 1) Manhattan Distance.
 2) Diagonal Distance.
 3) Euclidean Distance.
 I have used Euclidean distance concept in this project.
 hv = sqrt ( pow(current_cell.x – goal.x,2) + pow(current_cell.y – goal.y,2)).
 where hv=heuristic value.
+
+# I have used Java and Processing in Java to complete this project.
