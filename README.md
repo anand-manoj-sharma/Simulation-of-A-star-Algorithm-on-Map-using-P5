@@ -18,6 +18,7 @@ Heuristic value is the distance between all the Nodes from the destination node,
 1) Manhattan Distance.
 2) Diagonal Distance.
 3) Euclidean Distance.
+
 I have used Euclidean distance concept in this project.
 hv = sqrt ( pow(current_cell.x – goal.x,2) + pow(current_cell.y – goal.y,2)).
 where hv=heuristic value.
